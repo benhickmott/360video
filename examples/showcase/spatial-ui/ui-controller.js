@@ -24,6 +24,7 @@ AFRAME.registerComponent('ui-controller', {
   },
 
   onTileClicked: function (evt) {
+    window.open('https://benhickmott.github.io/360video/examples/boilerplate/360-video/')
     var self = this;
     var el = this.el;
     var objects = el.sceneEl.getAttribute('raycaster').objects;
